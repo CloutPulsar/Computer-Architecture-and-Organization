@@ -1,0 +1,672 @@
+relaunch_sim
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Edgar Granados/Desktop/Vivado Projects/project_7/project_7.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'arbiter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Edgar Granados/Desktop/Vivado Projects/project_7/project_7.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj arbiter_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Edgar Granados/Desktop/Vivado Projects/project_7/project_7.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Edgar Granados/Desktop/Vivado Projects/project_7/project_7.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 06eb6d5a4c324b71a19c9a7b43cba9c4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot arbiter_tb_behav xil_defaultlib.arbiter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Current Time:  0 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:xxx	_frame: x	_IRDY: x
+
+Current Time:  0 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time: 0 ns
+Bus Idle.
+
+
+Current Time:  2 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:110	_frame: 0	_IRDY: 0
+
+Current Time:  2 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time: 2 ns
+A transaction is currently in progress and the initiator is ready to complete it.
+
+
+Current Time:  4 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:110	_frame: 0	_IRDY: 0
+
+Current Time:  4 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time: 4 ns
+A transaction is currently in progress and the initiator is ready to complete it.
+
+
+Current Time:  6 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:110	_frame: 1	_IRDY: 0
+
+Current Time:  6 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time: 6 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time:  8 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:100	_frame: 1	_IRDY: 1
+
+Current Time:  8 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time: 8 ns
+Bus Idle.
+
+
+Current Time: 10 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:100	_frame: 1	_IRDY: 1
+
+Current Time: 10 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:10 ns
+Bus Idle.
+
+
+Current Time: 12 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 1
+
+Current Time: 12 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:12 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 14 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 0
+
+Current Time: 14 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:14 ns
+A transaction is currently in progress and the initiator is ready to complete it.
+
+
+Current Time: 16 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 0
+
+Current Time: 16 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:16 ns
+A transaction is currently in progress and the initiator is ready to complete it.
+
+
+Current Time: 18 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 1
+
+Current Time: 18 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:18 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 20 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 1
+
+Current Time: 20 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:20 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 22 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 1
+
+Current Time: 22 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:22 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 24 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 1
+
+Current Time: 24 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:24 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 26 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 1
+
+Current Time: 26 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:26 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 28 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 1
+
+Current Time: 28 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:28 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 30 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 0	_IRDY: 1
+
+Current Time: 30 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:30 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 32 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:100	_frame: 1	_IRDY: 1
+
+Current Time: 32 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:32 ns
+Bus Idle.
+
+
+Current Time: 34 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:010	_frame: 1	_IRDY: 1
+
+Current Time: 34 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:34 ns
+Bus Idle.
+
+
+Current Time: 36 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:010	_frame: 0	_IRDY: 1
+
+Current Time: 36 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 011
+
+Current Time:36 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 38 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:010	_frame: 0	_IRDY: 1
+
+Current Time: 38 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 011
+
+Current Time:38 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 40 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:010	_frame: 0	_IRDY: 0
+
+Current Time: 40 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 011
+
+Current Time:40 ns
+A transaction is currently in progress and the initiator is ready to complete it.
+
+
+Current Time: 42 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:010	_frame: 0	_IRDY: 1
+
+Current Time: 42 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 011
+
+Current Time:42 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 44 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:010	_frame: 0	_IRDY: 1
+
+Current Time: 44 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 011
+
+Current Time:44 ns
+A transaction is in progress and the initiator is not ready to complete the current data transfer.
+
+
+Current Time: 46 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:010	_frame: 1	_IRDY: 1
+
+Current Time: 46 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:46 ns
+Bus Idle.
+
+
+Current Time: 48 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:010	_frame: 1	_IRDY: 1
+
+Current Time: 48 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:48 ns
+Bus Idle.
+
+
+Current Time: 50 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 50 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:50 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 52 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 52 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:52 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 54 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 54 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:54 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 56 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 56 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:56 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 58 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 58 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:58 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 60 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 60 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:60 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 62 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 62 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:62 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 64 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 64 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:64 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 66 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 66 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:66 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 68 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 68 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:68 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 70 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 70 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:70 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 72 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 72 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:72 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 74 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 74 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:74 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 76 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 76 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:76 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 78 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 78 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:78 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 80 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 80 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:80 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 82 ns
+The Device with the NEW highest priority is Device0.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 82 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 110
+
+Current Time:82 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 84 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 84 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:84 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 86 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 86 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:86 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 88 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 88 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:88 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 90 ns
+The Device with the NEW highest priority is Device1.
+The requests signal was:000	_frame: 1	_IRDY: 0
+
+Current Time: 90 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:90 ns
+Initiator is ready to complete last data transfer of transaction.But has not been completed.
+
+
+Current Time: 92 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:000	_frame: 0	_IRDY: 0
+
+Current Time: 92 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:92 ns
+A transaction is currently in progress and the initiator is ready to complete it.
+
+
+Current Time: 94 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:000	_frame: 0	_IRDY: 0
+
+Current Time: 94 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:94 ns
+A transaction is currently in progress and the initiator is ready to complete it.
+
+
+Current Time: 96 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:000	_frame: 0	_IRDY: 0
+
+Current Time: 96 ns
+The current state of the bus is 1 (0 = IDLE, 1 = BUSY)
+The grant signal was: 101
+
+Current Time:96 ns
+A transaction is currently in progress and the initiator is ready to complete it.
+
+
+Current Time: 98 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:000	_frame: 1	_IRDY: 1
+
+Current Time: 98 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:98 ns
+Bus Idle.
+
+
+Current Time: 100 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:000	_frame: 1	_IRDY: 1
+
+Current Time: 100 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:100 ns
+Bus Idle.
+
+
+Current Time: 102 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:000	_frame: 1	_IRDY: 1
+
+Current Time: 102 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:102 ns
+Bus Idle.
+
+
+Current Time: 104 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:000	_frame: 1	_IRDY: 1
+
+Current Time: 104 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:104 ns
+Bus Idle.
+
+
+Current Time: 106 ns
+The Device with the NEW highest priority is Device2.
+The requests signal was:000	_frame: 1	_IRDY: 1
+
+Current Time: 106 ns
+The current state of the bus is 0 (0 = IDLE, 1 = BUSY)
+The grant signal was: 111
+
+Current Time:106 ns
+Bus Idle.
+
+
+relaunch_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1675.637 ; gain = 0.000
